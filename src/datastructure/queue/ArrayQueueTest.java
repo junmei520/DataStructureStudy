@@ -1,4 +1,6 @@
-package datastructure;
+package datastructure.queue;
+
+import datastructure.queue.ArrayQueue;
 
 import java.util.Scanner;
 

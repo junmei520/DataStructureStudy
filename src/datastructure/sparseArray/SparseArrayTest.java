@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.sparseArray;
 
 import java.io.*;
 import java.util.ArrayList;

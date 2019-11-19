@@ -12,8 +12,15 @@ import java.util.Scanner;
  */
 public class ArrayQueueTest {
     public static void main(String[] args) {
+        //测试数组模拟队列
         //先创建一个最大容量为3的队列
-        ArrayQueue queue = new ArrayQueue(3);
+        //ArrayQueue queue = new ArrayQueue(3);
+
+        //测试环形数组来模拟队列
+        //创建一个容量为4的数组，
+        // 但是它实际最多只能装3个数据，因为有一个空间需要用来做约定。
+        CircleArrayQueue queue =new CircleArrayQueue(4);
+
         //用于接收用户键盘输入的指令
         char order = ' ';
         Scanner scanner = new Scanner(System.in);
